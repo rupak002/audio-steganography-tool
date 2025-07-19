@@ -34,6 +34,7 @@ This is a professional audio steganography tool built in Python using Tkinter wi
 1. **Clone the repo**
   
    git clone https://github.com/rupak002/audio-steganography-tool.git
+   
    cd audio-steganography-tool
 
 2.Install requirements
