@@ -37,11 +37,42 @@ This is a professional audio steganography tool built in Python using Tkinter wi
    
    cd audio-steganography-tool
 
-2.Install requirements
+2.Install requirements:
   
    pip install -r requirements.txt
 
 ▶️ Running the Tool
 
     python audiosteg.py
+
+✅ Use a Virtual Environment(optional but recommended):
+
+   If you are facing error: externally-managed-environment.The error you're encountering is a PEP 668-compliant protection mechanism in Python which defines how distributions should mark Python as "externally managed" to prevent accidental system damage via pip .
+
+To fix this issue:
+
+Install python3-venv if not already installed:
+
+sudo apt install python3-venv
+
+Create a virtual environment:
+
+python3 -m venv venv
+
+Activate the virtual environment:
+
+source venv/bin/activate
+
+Now install your requirements safely:
+
+pip install -r requirements.txt
+
+To run your app, stay in the activated environment:
+
+python audiosteg.py
+
+To exit the virtual environment later:
+
+deactivate
+
 
