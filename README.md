@@ -41,7 +41,7 @@ This is a professional audio steganography tool built in Python using Tkinter wi
   
    pip install -r requirements.txt
 
-▶️ Running the Tool
+▶️ Running the Tool:
 
     python audiosteg.py
 
@@ -51,16 +51,16 @@ This is a professional audio steganography tool built in Python using Tkinter wi
 
 To fix this issue:
 
-i]Install python3-venv if not already installed : sudo apt install python3-venv
+1]Install python3-venv if not already installed: sudo apt install python3-venv
 
-ii]Create a virtual environment : python3 -m venv venv
+2]Create a virtual environment: python3 -m venv venv
 
-iii]Activate the virtual environment : source venv/bin/activate
+3]Activate the virtual environment: source venv/bin/activate
 
-iv]Now install your requirements safely : pip install -r requirements.txt
+4]Now install your requirements safely: pip install -r requirements.txt
 
-v]To run your app, stay in the activated environment : python audiosteg.py
+5]To run your app, stay in the activated environment: python audiosteg.py
 
-vi]To exit the virtual environment later : deactivate
+6]To exit the virtual environment later: deactivate
 
 
